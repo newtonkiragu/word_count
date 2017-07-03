@@ -19,5 +19,13 @@
     <label for="number">Enter the sentence:</label>
   <input id="sentence" name="sentence" type="text" placeholder="input your sentence" rows="4" class="form-control">
   </div>
-  <button type="sumit" name="button" class="btn btn-primary">Submit</button>
+  <button type="sumit" name="button" class="btn btn-primary" id="show">Submit</button>
 </form>
+
+<div class="output">
+  <h2>Here is your result:</h2>
+  <h3>The word <em><strong><%= @word %></strong></em> in the sentence <br> <em><strong><%= @sentence %></strong></em><br> has been repeated:</h3>
+
+  <h3 name="result"> <em><strong><%= @result%></strong></em> time(s)</h3>
+  <button type="submit" name="button" class="btn btn submit"> <a href="/">Submit new question</a></button>
+</div>

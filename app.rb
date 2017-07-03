@@ -11,6 +11,7 @@ end
 get('/result') do
   word = params.fetch(('word').to_s)
   @word = params.fetch(('word').to_s)
+  @sentence = params.fetch(('sentence').to_s)
   @result = params.fetch('sentence').to_s.count(word)
-  erb(:output)
+  erb(:index)
 end
