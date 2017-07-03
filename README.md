@@ -4,6 +4,7 @@
 Newton Kiragu
 
 Word count is a website that is used to look for a certain word in a sentence and be able to return the number of times the word appears in the sentence.
+[click here](https://wordcount-ruby.herokuapp.com/) to go to the deployed site.
 
   - The website takes an input of the word to be found
   - The website then takes a sentence as an input
